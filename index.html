@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitzi Rios</title>
+
+    <link rel="stylesheet" href="./Style CSS/reset.css">
+    <link rel="stylesheet" href="./Style CSS/main.css">
+    <link rel="stylesheet" href="./Style CSS/bienvenida.css">
+    <link rel="stylesheet" href="./Style CSS/menuPrincipal.css">
+    <link rel="stylesheet" href="./Style CSS/fondo.css">
+    <link rel="stylesheet" href="./Style CSS/btnsContact.css">
+    <link rel="stylesheet" href="./Style CSS/responsive.css">
+
+    <link rel="icon" href="./Style CSS/Recursos/m.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <main>
+        <section class="conteinerPrincipal">
+            <div class="bienvenida">
+                <h1 class="name">Mitzi Rios</h1>
+                <h2 class="titulos">Front-end Developer | UX Designer | Vector Illustrator</h2>
+                <p class="parrafo">If you are looking for a professional who can bring a unique combination of technical knowledge, UX design experience, and front-end development skills, don't hesitate to contact me!</p>
+            </div>  
+            <nav class="menu">
+                <ul>
+                    <li class="limenu"><a onclick="showProjects(event)" class="menuElemt" href="">> Projects</a></li>
+                    <li class="limenu"><a onclick="showAbout(event)" class="menuElemt" href="">> About me</a></li>
+                    <li class="limenu"><a onclick="showStudy(event)" class="menuElemt" href="">> Education</a></li>
+                    <li class="limenu"><a onclick="showExp(event)" class="menuElemt" href="">> Experience</a></li>
+                    <li class="limenu"><a onclick="showContact(event)" class="menuElemt" href="">> Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="conteinerSecundario">
+            <div class="botones">
+                <ul class="listaBtns">
+                    <li><a class="btn" href="https://mitzir02.github.io/portafolio/">ES</a></li>
+                    <li><label class="btn" id="on" for="toggle"><i class="fa-solid fa-toggle-on"></i></label></i></li>
+                    <input type="checkbox" id="toggle">
+                    <li><a class="btn" href="mailto:mitzi.rios.contact@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+                    <li><a class="btn" href="https://wa.me/5217822534853" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a class="btn" href="https://www.linkedin.com/in/mitzi-rios/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="caja">
+                <iframe id="tecno" src="./tecnologias.html" frameborder="0"></iframe>
+                <iframe id="proye" src="./proyectos.html" frameborder="0"></iframe>
+                <iframe id="about" src="./sobreMi.html" frameborder="0"></iframe>
+                <iframe id="study" src="./formacion.html" frameborder="0"></iframe>
+                <iframe id="exp" src="./experiencia.html" frameborder="0"></iframe>
+                <iframe id="contact" src="./contacto.html" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
+    <div class="mensajeMovil">
+        <h1 class="tMov">Hi!</h1>
+        <p class="pMov">It looks like you're on a mobile device. Unfortunately, I'm still working on responsive design :c</p>
+        <p class="pMov">Please check this portfolio on a computer</p>
+        <h1 class="tMov">Thanks for understanding!</h1>
+    </div>
+    <div class="fondo">
+        <video muted autoplay loop><source src="./Style CSS/Recursos/dustgoldweb.webm" type="video/webm"></video>
+        <div id="fondoA"></div>
+        <div id="capa"></div>
+    </div>
+    <script src="./scrypt.js"></script>
+</body>
+</html>

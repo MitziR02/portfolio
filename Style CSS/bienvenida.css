@@ -1,0 +1,16 @@
+.name{
+    font-size: 7rem;
+    margin-bottom: 1rem;
+    color: var(--dorado);
+    
+}
+.titulos{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--azulB);
+}
+.parrafo{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+

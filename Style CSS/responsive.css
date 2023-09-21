@@ -1,0 +1,33 @@
+.mensajeMovil{
+    display: none;
+}
+@media (max-width:1580px) {
+    main{
+        display: none;
+    }
+
+    .mensajeMovil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .tMov{
+        font-size: 2rem;
+        margin: 2rem;
+    }
+
+    .pMov{
+        font-size: 1.5rem;
+        margin: .8rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+  
+}

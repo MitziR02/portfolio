@@ -1,0 +1,87 @@
+:root{
+    --dorado: #ffd700;
+    --doradoT: #ffd90085;
+    --gris: #000B14;
+    --azulB: #A5D8FF;
+    --azulO: #2e2d4d;
+    --azulOscT: #2e2d4d7e;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+main{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.conteinerPrincipal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 5rem;
+}
+
+.conteinerSecundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    align-items: center;
+}
+.caja{
+    width: 70%;
+    height: 70%;
+}
+
+/*------Contenido caja------*/
+
+#tecno{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#proye{
+    width: 100vh;
+    height: 100%;
+    display: none;
+}
+
+#about{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#study{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#exp{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#contact{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--doradoT);
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+}

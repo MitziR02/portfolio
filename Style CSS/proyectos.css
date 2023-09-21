@@ -1,0 +1,84 @@
+.proyectos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloTipoP{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--dorado);
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    width: 90%;
+    min-height: 12rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    background-color: var(--azulOscT);
+    box-shadow: 0px 10px 10px -8px var(--dorado);
+}
+
+.imgProjects{
+    width: 200px;
+    max-height: 65%;
+    border-radius: 5px;
+}
+
+.infoP{
+    width: 70%;
+    max-height: 65%;
+}
+
+.titProject{
+    font-size: 1.7rem;
+    margin-bottom: .8rem;
+    color: var(--azulB);
+}
+
+.descripcionP{
+    font-size: 1.20rem;
+}
+
+.tags{
+    max-height: 25%;
+    display: flex;
+}
+
+.tagsLi{
+    background-color: var(--doradoT);
+    margin-right: 2rem;
+    padding: .4rem;
+    border-radius: 12px;
+}
+
+.btnP{
+    width: 150px;
+    height: 30px;
+    background: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px; 
+    border: 2px solid var(--dorado);
+    color: white;   
+    border-radius: 15px;
+}
+
+.btnP:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    line-height: 40px; 
+    background-color: var(--doradoT);
+    transition: .5s;
+}

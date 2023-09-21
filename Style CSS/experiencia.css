@@ -1,0 +1,71 @@
+.experi{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titxp{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--dorado);
+}
+
+.elementoxp{
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+    border-radius: 25px;
+    width: 92%;
+    background-color: var(--azulOscT);
+    box-shadow: 0px 10px 10px -8px var(--dorado);
+}
+
+.titJob{
+    font-size: 1.8rem;
+    margin-bottom: .3rem;
+    color: var(--azulB);
+}
+
+.fechaJob{
+    font-size: .8rem;
+    margin-bottom: .3rem;
+    color: grey;
+}
+
+.empresaJob{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+
+.descJob{
+    font-size: 1.10rem;
+    margin-bottom: .8rem;
+}
+
+.downloadBtn{
+    width: 250px;
+    height: 30px;
+    background: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px; 
+    border: 2px solid var(--dorado);
+    color: white;   
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: -0px 10px 18px -10px var(--dorado);
+}
+
+.downloadBtn:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    line-height: 40px; 
+    background-color: var(--doradoT);
+    transition: .5s;
+    box-shadow: 0px 12px 20px -8px var(--dorado);
+}

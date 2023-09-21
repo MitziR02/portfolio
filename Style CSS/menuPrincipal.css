@@ -1,0 +1,17 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.limenu{
+    margin-top: 1rem;
+}
+.menuElemt{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: var(--azulB);
+}
+.menuElemt:hover{
+    color: var(--dorado);
+    font-size: 2.3rem;
+    transition: 0.5s;
+}
