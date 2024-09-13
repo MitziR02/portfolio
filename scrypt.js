@@ -1,7 +1,7 @@
 var tecnoCaja = document.getElementById("tecno");
 var projectsMenu = document.getElementById("proye");
 var aboutMenu = document.getElementById("about");
-var expMenu = document.getElementById("exp");
+//var //expMenu = document.getElementById("exp");
 var contMenu = document.getElementById("contact");
 var studyMenu = document.getElementById("study");
 
@@ -9,7 +9,7 @@ function showProjects(event){
     event.preventDefault();
     tecnoCaja.style.display = "none";
     aboutMenu.style.display = "none";
-    expMenu.style.display = "none";
+    //expMenu.style.display = "none";
     contMenu.style.display ="none";
     studyMenu.style.display ="none";
     projectsMenu.style.display = "block";
@@ -19,28 +19,28 @@ function showAbout(event){
     event.preventDefault();
     tecnoCaja.style.display = "none";
     projectsMenu.style.display = "none"
-    expMenu.style.display = "none";
+    //expMenu.style.display = "none";
     contMenu.style.display ="none";
     studyMenu.style.display ="none";
     aboutMenu.style.display = "block";
 }
 
-function showExp(event){
+/*function showExp(event){
     event.preventDefault();
     tecnoCaja.style.display = "none";
     projectsMenu.style.display = "none"
     aboutMenu.style.display = "none";
     contMenu.style.display ="none";
     studyMenu.style.display ="none";
-    expMenu.style.display = "block";
-}
+    //expMenu.style.display = "block";
+}*/
 
 function showContact(event){
     event.preventDefault();
     tecnoCaja.style.display = "none";
     projectsMenu.style.display = "none"
     aboutMenu.style.display = "none";
-    expMenu.style.display = "none";
+    //expMenu.style.display = "none";
     studyMenu.style.display ="none";
     contMenu.style.display ="block";
 }
@@ -50,7 +50,7 @@ function showStudy(event){
     tecnoCaja.style.display = "none";
     projectsMenu.style.display = "none"
     aboutMenu.style.display = "none";
-    expMenu.style.display = "none";
+    //expMenu.style.display = "none";
     contMenu.style.display ="none";
     studyMenu.style.display ="block";
 }
